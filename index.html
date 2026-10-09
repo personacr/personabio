@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TY6Y414RXR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-TY6Y414RXR');
+</script>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>personα · Jose Pablo García</title>
+<meta name="description" content="Cineasta independiente costarricense. Cine, televisión, fotografía y artes escénicas."/>
+<meta property="og:title" content="personα · Jose Pablo García"/>
+<meta property="og:description" content="Filmmaker · Photographer · Visual Storyteller — Costa Rica"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://bio.persona.cr"/>
+<meta property="og:image" content="https://bio.persona.cr/img/og-image.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="personα · Jose Pablo García"/>
+<meta name="twitter:description" content="Filmmaker · Photographer · Visual Storyteller — Costa Rica"/>
+<meta name="twitter:image" content="https://bio.persona.cr/img/og-image.jpg"/>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iOCIgZmlsbD0iIzAwMDAwMCIvPgogIDx0ZXh0IHg9IjE2IiB5PSIyMyIgZm9udC1mYW1pbHk9Ikdlb3JnaWEsc2VyaWYiIGZvbnQtc2l6ZT0iMjIiIGZvbnQtc3R5bGU9Iml0YWxpYyIgCiAgICAgICAgZmlsbD0iIzRGQjNFOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+zrE8L3RleHQ+Cjwvc3ZnPg=="/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --black:#000000;
+  --c1:#0f0f0f;
+  --c2:#1a1a1a;
+  --bone:#F4F2ED;
+  --fog:#7A7875;
+  --mist:#A8A5A0;
+  --copper:#4FB3E8;
+  --copper-d:#2E8FC0;
+  --copper-g:rgba(79,179,232,0.13);
+  --copper-b:rgba(79,179,232,0.34);
+  --line:rgba(244,242,237,0.09);
+  --serif:'Fraunces',Georgia,serif;
+  --sans:'Plus Jakarta Sans',-apple-system,sans-serif;
+  --r:12px;--r-sm:8px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--black);color:var(--bone);
+  font-family:var(--sans);font-size:15px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;min-height:100vh;
+}
+.wrap{max-width:440px;margin:0 auto;padding:32px 20px 72px;}
+
+/* LANG */
+.lang{display:flex;justify-content:center;gap:2px;margin-bottom:36px;opacity:0;animation:appear .6s ease .05s forwards;}
+.lang button{background:none;border:none;cursor:pointer;font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.14em;color:var(--fog);padding:6px 14px;border-radius:20px;transition:color .2s,background .2s;}
+.lang button.on{color:var(--bone);background:var(--c2);}
+
+/* AVATAR */
+.avatar-wrap{display:flex;justify-content:center;margin-bottom:18px;opacity:0;animation:appear .7s ease .1s forwards;}
+.avatar{
+  width:96px;height:96px;border-radius:50%;
+  background:var(--c2) center/cover no-repeat;
+  position:relative;
+}
+.avatar::before{content:"";position:absolute;inset:-5px;border-radius:50%;border:1px solid rgba(79,179,232,.45);}
+.avatar::after{content:"";position:absolute;inset:-10px;border-radius:50%;border:1px solid rgba(79,179,232,.15);}
+
+/* HERO */
+.hero{text-align:center;margin-bottom:28px;}
+.wordmark{font-family:var(--serif);font-size:38px;font-weight:400;letter-spacing:.04em;line-height:1;margin-bottom:8px;opacity:0;animation:appear .7s ease .18s forwards;}
+.wordmark .alpha{color:var(--copper);font-style:italic;}
+.fullname{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--copper);margin-bottom:14px;opacity:0;animation:appear .7s ease .22s forwards;}
+.role{font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--mist);margin-bottom:13px;opacity:0;animation:appear .7s ease .26s forwards;}
+.bio{font-family:var(--sans);font-style:normal;font-size:13px;font-weight:400;color:var(--bone);line-height:1.7;max-width:340px;margin:0 auto 11px;letter-spacing:.01em;opacity:0;animation:appear .7s ease .34s forwards;}
+.manif{font-family:var(--serif);font-style:italic;font-weight:500;font-size:15px;color:var(--copper);line-height:1.5;max-width:320px;margin:6px auto 0;opacity:0;animation:appear .7s ease .42s forwards;letter-spacing:.005em;}
+.hdiv{height:1px;background:var(--line);margin:26px 0;opacity:0;animation:appear .5s ease .48s forwards;}
+
+/* SECTION */
+.sec{opacity:0;animation:appear .6s ease forwards;margin-bottom:14px;padding:18px 16px;border-radius:18px;}
+.sec-label{font-size:11px;font-weight:700;letter-spacing:.38em;text-transform:uppercase;color:var(--bone);margin-bottom:14px;display:flex;align-items:center;gap:12px;padding-left:2px;}
+.sec-label::after{content:"";flex:1;height:1px;background:var(--line);}
+
+.sec.s-motion  {background:linear-gradient(180deg, rgba(120,110,160,0.05), rgba(0,0,0,0));}
+.sec.s-photo   {background:linear-gradient(180deg, rgba(80,130,120,0.05), rgba(0,0,0,0));}
+.sec.s-stage   {background:linear-gradient(180deg, rgba(79,179,232,0.06),  rgba(0,0,0,0));}
+.sec.s-music   {background:linear-gradient(180deg, rgba(160,130,90,0.05), rgba(0,0,0,0));}
+.sec.s-contact {background:linear-gradient(180deg, rgba(120,120,130,0.05), rgba(0,0,0,0));}
+
+/* SECTION BANNER */
+.sec-banner{
+  position:relative;width:calc(100% + 32px);margin-left:-16px;
+  height:190px;overflow:hidden;margin-bottom:16px;
+  border-radius:var(--r);
+}
+.sec-banner img{
+  width:100%;height:100%;object-fit:cover;object-position:center 40%;
+  display:block;
+}
+.sec-banner-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.22) 55%, transparent 100%);
+}
+.sec-banner-title{
+  position:absolute;bottom:18px;left:22px;
+  font-family:var(--serif);font-size:22px;font-weight:200;
+  letter-spacing:.04em;color:var(--bone);line-height:1;
+  text-transform:lowercase;
+}
+.sec-banner-title .last{color:var(--copper);font-family:var(--serif);font-style:italic;font-weight:400;}
+
+/* CARD BASE */
+.card{background:var(--c1);border:1px solid var(--line);border-radius:var(--r);margin-bottom:9px;overflow:hidden;}
+.card-head{display:flex;align-items:center;gap:13px;padding:14px 16px;cursor:pointer;-webkit-tap-highlight-color:transparent;user-select:none;text-decoration:none;color:inherit;transition:background .2s;width:100%;background:none;border:none;font-family:var(--sans);text-align:left;}
+.card-head:hover,.card.open .card-head{background:var(--c2);}
+.card-icon{width:36px;height:36px;flex-shrink:0;border-radius:var(--r-sm);background:var(--black);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:18px;color:var(--copper);transition:border-color .2s;}
+.card-icon svg{color:var(--copper);display:block;}
+.card-head:hover .card-icon,.card.open .card-icon{border-color:var(--copper-b);}
+.card-text{flex:1;min-width:0;}
+.card-title{font-size:14px;font-weight:600;line-height:1.3;color:var(--bone);}
+.card-sub{font-size:11.5px;color:var(--fog);margin-top:2px;font-weight:400;}
+.card-arr{font-size:14px;color:var(--fog);transition:transform .3s ease,color .2s;flex-shrink:0;}
+.card.open .card-arr{transform:rotate(90deg);color:var(--copper);}
+
+/* ACCORDION BODY */
+.card-body{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.4,0,.2,1);}
+.card.open .card-body{max-height:4000px;}
+.card-inner{padding:0 14px 14px;}
+
+/* EXTERNAL LINK CARD */
+a.card{display:block;text-decoration:none;}
+a.card .card-arr{font-size:15px;}
+a.card:hover .card-arr{transform:translateX(3px);color:var(--copper);}
+a.card .card-head{cursor:pointer;}
+
+/* FEATURE CARD */
+.card.feature{background:var(--c1);border-color:var(--line);}
+.card.feature .card-icon{border-color:var(--line);}
+
+/* VIDEO LIST */
+.vid-list{display:flex;flex-direction:column;gap:10px;}
+.vid-item{}
+.vid-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--fog);margin-bottom:6px;display:flex;align-items:center;gap:8px;}
+.vid-label span{color:var(--copper);}
+.vid-role{font-size:10px;color:var(--fog);font-style:italic;margin-left:auto;}
+.vid-wrap{position:relative;width:100%;border-radius:var(--r-sm);overflow:hidden;background:var(--black);border:1px solid var(--line);}
+.vid-wrap.ratio-16{aspect-ratio:16/9;}
+.vid-wrap.ratio-9{aspect-ratio:9/16;}
+.vid-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+
+/* PHOTO GALLERY */
+.gallery{display:grid;gap:5px;margin-top:4px;}
+.gallery.g3{grid-template-columns:repeat(3,1fr);}
+.gallery.g2{grid-template-columns:1fr 1fr;}
+.gallery.g1{grid-template-columns:1fr;}
+.gitem{aspect-ratio:1/1;border-radius:6px;overflow:hidden;background:var(--c2);border:1px solid var(--line);position:relative;cursor:pointer;}
+.gitem.wide{aspect-ratio:16/9;}
+.gitem img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s ease;}
+.gitem:hover img{transform:scale(1.04);}
+.gitem-ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:10px;color:var(--fog);text-align:center;padding:6px;line-height:1.4;}
+
+/* LIGHTBOX */
+.lightbox{display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,0.94);align-items:center;justify-content:center;padding:20px;}
+.lightbox.active{display:flex;}
+.lightbox-img{max-width:100%;max-height:90vh;border-radius:var(--r-sm);object-fit:contain;display:block;}
+.lightbox-close{position:absolute;top:16px;right:20px;font-size:28px;color:var(--mist);cursor:pointer;background:none;border:none;font-family:var(--sans);line-height:1;transition:color .2s;}
+.lightbox-close:hover{color:var(--bone);}
+.lightbox-nav{position:absolute;top:50%;transform:translateY(-50%);font-size:28px;color:var(--mist);cursor:pointer;background:rgba(0,0,0,0.4);border:none;padding:12px 16px;border-radius:var(--r-sm);transition:color .2s,background .2s;font-family:var(--sans);line-height:1;}
+.lightbox-nav:hover{color:var(--bone);background:rgba(0,0,0,0.7);}
+.lightbox-prev{left:12px;}
+.lightbox-next{right:12px;}
+.lightbox-counter{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);font-size:11px;letter-spacing:.1em;color:var(--fog);}
+
+/* REEL GRID */
+.reel-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.reel-cell{display:flex;flex-direction:column;gap:6px;}
+.reel-label{font-size:10px;letter-spacing:.06em;color:var(--mist);text-align:center;line-height:1.3;min-height:24px;display:flex;align-items:center;justify-content:center;}
+
+/* CARD INFO */
+.card.info .card-head{cursor:default;}
+.card.info .card-head:hover{background:none;}
+
+/* SPOTIFY */
+.spotify-list{display:flex;flex-direction:column;gap:8px;}
+.spotify-wrap{border-radius:10px;overflow:hidden;border:1px solid var(--line);}
+.spotify-wrap iframe{display:block;border:0;width:100%;}
+.spotify-label{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--fog);margin-bottom:5px;padding-left:2px;}
+
+/* SEPARATOR */
+.inner-sep{height:1px;background:var(--line);margin:12px 0;}
+
+/* CONTACT BUTTON */
+.btn-contact{display:flex;align-items:center;gap:13px;background:var(--c1);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;cursor:pointer;width:100%;text-align:left;color:var(--bone);font-family:var(--sans);font-size:14px;font-weight:600;transition:background .2s,border-color .2s;}
+.btn-contact:hover{background:var(--c2);border-color:var(--copper-b);}
+.btn-contact .icon{width:36px;height:36px;flex-shrink:0;border-radius:var(--r-sm);background:var(--copper-g);border:1px solid var(--copper-b);display:flex;align-items:center;justify-content:center;}
+.btn-contact .icon svg{width:17px;height:17px;fill:var(--copper);}
+.btn-contact .arr{font-size:13px;color:var(--fog);margin-left:auto;transition:transform .3s,color .2s;}
+.btn-contact.open .arr{transform:rotate(90deg);color:var(--copper);}
+
+/* FORM */
+.form-wrap{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.4,0,.2,1);}
+.form-wrap.open{max-height:700px;}
+.form-inner{padding-top:12px;}
+.field{margin-bottom:10px;}
+.field label{display:block;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--fog);margin-bottom:5px;font-weight:600;}
+.field input,.field select,.field textarea{width:100%;background:var(--c2);border:1px solid var(--line);border-radius:var(--r-sm);color:var(--bone);font-family:var(--sans);font-size:14px;padding:11px 13px;outline:none;transition:border-color .2s;-webkit-appearance:none;}
+.field select{cursor:pointer;}
+.field textarea{resize:vertical;min-height:80px;}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--copper-b);}
+.field input::placeholder,.field textarea::placeholder{color:var(--fog);}
+.btn-send{width:100%;padding:14px;border:none;border-radius:var(--r);background:var(--copper);color:var(--black);font-family:var(--sans);font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:background .2s,transform .2s,box-shadow .2s;margin-top:4px;}
+.btn-send:hover{background:var(--copper-d);transform:translateY(-1px);box-shadow:0 8px 24px rgba(79,179,232,.3);}
+.form-msg{font-size:13px;text-align:center;padding:10px 0 0;display:none;}
+.form-msg.ok{color:#6fcf97;display:block;}
+.form-msg.err{color:#eb5757;display:block;}
+
+/* SOCIALS */
+.socials{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin-top:16px;}
+.soc{width:44px;height:44px;border-radius:50%;background:var(--c1);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;text-decoration:none;transition:transform .2s,border-color .2s,background .2s;}
+.soc svg{width:18px;height:18px;fill:var(--mist);transition:fill .2s;}
+.soc:hover{transform:translateY(-3px);border-color:var(--copper);background:var(--c2);}
+.soc:hover svg{fill:var(--copper);}
+
+/* FOOTER */
+.footer{text-align:center;margin-top:50px;padding-top:32px;border-top:1px solid var(--line);opacity:0;animation:appear .6s ease 1.2s forwards;}
+.footer-word{display:block;font-family:var(--serif);font-size:30px;font-weight:400;letter-spacing:.04em;color:var(--bone);line-height:1;margin-bottom:14px;text-decoration:none;}
+.footer-word .a{color:var(--copper);font-style:italic;}
+.footer-domain{display:block;font-family:var(--serif);font-style:italic;font-weight:500;font-size:17px;letter-spacing:.16em;color:var(--copper);text-decoration:none;margin-bottom:14px;transition:opacity .2s;}
+.footer-domain:hover{opacity:.75;}
+.footer-meta{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--fog);}
+
+/* MINI ICONS (LWGY) */
+.card-mini-icons{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap;}
+.mini-icon{display:flex;align-items:center;gap:7px;text-decoration:none;background:var(--copper-g);border:1px solid var(--copper-b);border-radius:20px;padding:7px 12px;transition:background .2s,border-color .2s,transform .2s,box-shadow .2s;}
+.mini-icon:hover{background:rgba(79,179,232,0.22);border-color:var(--copper);transform:translateY(-1px);box-shadow:0 4px 14px rgba(79,179,232,0.25);}
+.mini-icon svg{width:13px;height:13px;fill:var(--copper);flex-shrink:0;}
+.mini-icon span{font-size:11px;color:var(--copper);letter-spacing:.04em;font-weight:600;}
+
+/* ANIMATIONS */
+@keyframes appear{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}.lang,.wordmark,.fullname,.role,.bio,.manif,.hdiv,.footer,.avatar-wrap,.sec{opacity:1!important;}}
+
+/* LANG SWITCHING */
+[data-en]{display:none;}
+body.en [data-es]{display:none;}
+body.en [data-en]{display:inline;}
+body.en span[data-en]{display:inline;}
+body.en select[data-en]{display:block;}
+select[data-es]{display:block;}
+body.en select[data-es]{display:none;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- LANG -->
+<div class="lang">
+  <button id="bes" class="on" onclick="setLang('es')">ES</button>
+  <button id="ben" onclick="setLang('en')">EN</button>
+</div>
+
+<!-- AVATAR -->
+<div class="avatar-wrap">
+  <div class="avatar" style="background-image:url('img/perfil.jpg');"></div>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <h1 class="wordmark">person<span class="alpha">α</span></h1>
+  <p class="fullname">Jose Pablo García</p>
+  <p class="role">
+    <span data-es>Cineasta, fotógrafo &amp; narrador visual</span>
+    <span data-en>Filmmaker, photographer &amp; visual storyteller</span>
+  </p>
+  <p class="bio">
+    <span data-es>Cineasta independiente costarricense con más de 15 años en el cruce del cine, televisión, fotografía, creación de contenido y artes escénicas.</span>
+    <span data-en>Costa Rican-based independent filmmaker with over 15 years of experience at the intersection of cinema, TV, photography, content creation and performing arts.</span>
+  </p>
+  <p class="manif">
+    <span data-es>La magia de lo cotidiano y el poder del subconsciente para crear.</span>
+    <span data-en>The magic of everyday life and the power of the subconscious to create.</span>
+  </p>
+</header>
+
+<div class="hdiv"></div>
+
+<!-- ═══════════════════════════════════
+     MOTION
+═══════════════════════════════════ -->
+<section class="sec s-motion" style="animation-delay:.54s">
+  <div class="sec-banner">
+    <img src="img/motion-banner.jpg" alt="Motion — Jose Pablo García"/>
+    <div class="sec-banner-overlay"></div>
+    <div class="sec-banner-title">motio<span class="last">n</span></div>
+  </div>
+
+  <div class="card" id="c-reels">
+    <button class="card-head" onclick="toggle('c-reels')">
+      <div class="card-icon">▭</div>
+      <div class="card-text">
+        <div class="card-title"><span data-es>Reels Cinematográficos</span><span data-en>Cinematic Reels</span></div>
+        <div class="card-sub">Social media &amp; events</div>
+      </div>
+      <span class="card-arr">›</span>
+    </button>
+    <div class="card-body">
+      <div class="card-inner">
+        <div class="reel-grid">
+          <div class="reel-cell">
+            <div class="reel-label">Revés 2026</div>
+            <div class="vid-wrap ratio-9">
+              <iframe src="https://player.vimeo.com/video/1162873267?title=0&byline=0&portrait=0" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="reel-cell">
+            <div class="reel-label">Revés 2025</div>
+            <div class="vid-wrap ratio-9">
+              <iframe src="https://player.vimeo.com/video/1104345596?title=0&byline=0&portrait=0" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="reel-cell">
+            <div class="reel-label">Imagination · Coldplay</div>
+            <div class="vid-wrap ratio-9">
+              <iframe src="https://player.vimeo.com/video/1104347403?title=0&byline=0&portrait=0" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="reel-cell">
+            <div class="reel-label">Acentos · Promo</div>
+            <div class="vid-wrap ratio-9">
+              <iframe src="https://player.vimeo.com/video/857355547?title=0&byline=0&portrait=0" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="c-shorts">
+    <button class="card-head" onclick="toggle('c-shorts')">
+      <div class="card-icon">▭</div>
+      <div class="card-text">
+        <div class="card-title"><span data-es>Cortos &amp; Videoclips</span><span data-en>Shorts &amp; Music Videos</span></div>
+        <div class="card-sub"><span data-es>Dirección, fotografía y edición</span><span data-en>Direction, cinematography &amp; editing</span></div>
+      </div>
+      <span class="card-arr">›</span>
+    </button>
+    <div class="card-body">
+      <div class="card-inner">
+        <div class="vid-list">
+          <div class="vid-item">
+            <div class="vid-label">Prelude <span class="vid-role">Co-Director, DP &amp; Editor</span></div>
+            <div class="vid-wrap ratio-16">
+              <iframe src="https://player.vimeo.com/video/601395044?title=0&byline=0&portrait=0" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="inner-sep"></div>
+          <div class="vid-item">
+            <div class="vid-label">An Instant <span class="vid-role">Director &amp; Editor</span></div>
+            <div class="vid-wrap ratio-16">
+              <iframe src="https://www.youtube.com/embed/7NnWlWsZX48" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="inner-sep"></div>
+          <div class="vid-item">
+            <div class="vid-label">Lorem Ipsum <span class="vid-role">Co-Director, DP &amp; Editor</span></div>
+            <div class="vid-wrap ratio-16">
+              <iframe src="https://player.vimeo.com/video/634799613?title=0&byline=0&portrait=0" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="inner-sep"></div>
+          <div class="vid-item">
+            <div class="vid-label">Mañana Mañana <span class="vid-role">Director, DP &amp; Editor</span></div>
+            <div class="vid-wrap ratio-16">
+              <iframe src="https://www.youtube.com/embed/ymWONly-2FE" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="inner-sep"></div>
+          <div class="vid-item">
+            <div class="vid-label">Moment <span class="vid-role">DP &amp; Editor</span></div>
+            <div class="vid-wrap ratio-16">
+              <iframe src="https://player.vimeo.com/video/963239232?title=0&byline=0&portrait=0" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="c-dv">
+    <button class="card-head" onclick="toggle('c-dv')">
+      <div class="card-icon">▭</div>
+      <div class="card-text">
+        <div class="card-title">Dele Viaje</div>
+        <div class="card-sub"><span data-es>Serie TV 2012 &amp; 2017 · Director &amp; guionista</span><span data-en>TV series 2012 &amp; 2017 · Director &amp; screenwriter</span></div>
+      </div>
+      <span class="card-arr">›</span>
+    </button>
+    <div class="card-body">
+      <div class="card-inner">
+        <div class="vid-list">
+          <div class="vid-item">
+            <div class="vid-label"><span>T2</span> Dele Viaje <span class="vid-role">Director &amp; Screenwriter</span></div>
+            <div class="vid-wrap ratio-16">
+              <iframe src="https://www.youtube.com/embed/J74H-5ccmfQ" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card info">
+    <div class="card-head" style="cursor:default">
+      <div class="card-icon">▭</div>
+      <div class="card-text">
+        <div class="card-title">A Ojos Cerrados</div>
+        <div class="card-sub"><span data-es>Productor · 2010 · Dir. Hernán Jiménez</span><span data-en>Producer · 2010 · Dir. Hernán Jiménez</span></div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════════════
+     PHOTO
+═══════════════════════════════════ -->
+<section class="sec s-photo" style="animation-delay:.63s">
+  <div class="sec-banner">
+    <img src="img/photo-banner.jpg" alt="Photo — Jose Pablo García"/>
+    <div class="sec-banner-overlay"></div>
+    <div class="sec-banner-title">phot<span class="last">o</span></div>
+  </div>
+
+  <div class="card" id="c-shows">
+    <button class="card-head" onclick="toggle('c-shows')">
+      <div class="card-icon">◎</div>
+      <div class="card-text">
+        <div class="card-title"><span data-es>Espectáculos</span><span data-en>Shows</span></div>
+        <div class="card-sub"><span data-es>Conciertos, producciones y teatro</span><span data-en>Concerts, productions &amp; theater</span></div>
+      </div>
+      <span class="card-arr">›</span>
+    </button>
+    <div class="card-body">
+      <div class="card-inner">
+        <div class="gallery g3" data-gallery="shows">
+          <div class="gitem" onclick="openLightbox('shows',0)"><img src="img/espectaculos-01.jpg" alt="Fotografía de espectáculo — Jacob Collier"></div>
+          <div class="gitem" onclick="openLightbox('shows',1)"><img src="img/espectaculos-02.jpg" alt="Fotografía de espectáculo — Jacob Collier"></div>
+          <div class="gitem" onclick="openLightbox('shows',2)"><img src="img/espectaculos-03.jpg" alt="Fotografía de concierto — Patiño Música"></div>
+          <div class="gitem" onclick="openLightbox('shows',3)"><img src="img/espectaculos-04.jpg" alt="Fotografía de concierto — Patiño Música"></div>
+          <div class="gitem" onclick="openLightbox('shows',4)"><img src="img/espectaculos-05.jpg" alt="Fotografía de danza en espectáculo"></div>
+          <div class="gitem" onclick="openLightbox('shows',5)"><img src="img/espectaculos-06.jpg" alt="Fotografía de espectáculo musical"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="c-personas">
+    <button class="card-head" onclick="toggle('c-personas')">
+      <div class="card-icon">◎</div>
+      <div class="card-text">
+        <div class="card-title">Personas</div>
+        <div class="card-sub"><span data-es>Retrato &amp; artistas en movimiento</span><span data-en>Portrait &amp; artists in motion</span></div>
+      </div>
+      <span class="card-arr">›</span>
+    </button>
+    <div class="card-body">
+      <div class="card-inner">
+        <div class="gallery g3" data-gallery="personas">
+          <div class="gitem" onclick="openLightbox('personas',0)"><img src="img/personas-01.jpg" alt="Personas — retrato en movimiento"></div>
+          <div class="gitem" onclick="openLightbox('personas',1)"><img src="img/personas-02.jpg" alt="Personas — artista en estudio"></div>
+          <div class="gitem" onclick="openLightbox('personas',2)"><img src="img/personas-03.jpg" alt="Personas — retrato artístico"></div>
+          <div class="gitem" onclick="openLightbox('personas',3)"><img src="img/personas-04.jpg" alt="Personas — músicos en locación"></div>
+          <div class="gitem" onclick="openLightbox('personas',4)"><img src="img/personas-05.jpg" alt="Personas — danza en estudio"></div>
+          <div class="gitem" onclick="openLightbox('personas',5)"><img src="img/personas-06.jpg" alt="Personas — movimiento corporal"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="c-conceptual">
+    <button class="card-head" onclick="toggle('c-conceptual')">
+      <div class="card-icon">◎</div>
+      <div class="card-text">
+        <div class="card-title">Conceptual</div>
+        <div class="card-sub"><span data-es>Lo onírico y lo simbólico</span><span data-en>The oneiric &amp; the symbolic</span></div>
+      </div>
+      <span class="card-arr">›</span>
+    </button>
+    <div class="card-body">
+      <div class="card-inner">
+        <div class="gallery g2" data-gallery="conceptual">
+          <div class="gitem" onclick="openLightbox('conceptual',0)"><img src="img/conceptual-01.jpg" alt="Parallel Perceptions 01"></div>
+          <div class="gitem" onclick="openLightbox('conceptual',1)"><img src="img/conceptual-02.jpg" alt="Parallel Perceptions 02"></div>
+          <div class="gitem" onclick="openLightbox('conceptual',2)"><img src="img/conceptual-03.jpg" alt="Parallel Perceptions 03"></div>
+          <div class="gitem" onclick="openLightbox('conceptual',3)"><img src="img/conceptual-04.jpg" alt="Parallel Perceptions 05"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="c-photo-reels">
+    <button class="card-head" onclick="toggle('c-photo-reels')">
+      <div class="card-icon">◎</div>
+      <div class="card-text">
+        <div class="card-title">Photography Reels</div>
+        <div class="card-sub"><span data-es>Viaje, conciertos y mirada visual</span><span data-en>Travel, concerts &amp; visual eye</span></div>
+      </div>
+      <span class="card-arr">›</span>
+    </button>
+    <div class="card-body">
+      <div class="card-inner">
+        <div class="reel-grid">
+          <div class="reel-cell">
+            <div class="reel-label">Coldplay · Barcelona</div>
+            <div class="vid-wrap ratio-9">
+              <iframe src="https://player.vimeo.com/video/853915318?title=0&byline=0&portrait=0" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="reel-cell">
+            <div class="reel-label">Barcelona</div>
+            <div class="vid-wrap ratio-9">
+              <iframe src="https://player.vimeo.com/video/853482737?title=0&byline=0&portrait=0" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="reel-cell">
+            <div class="reel-label">Switzerland</div>
+            <div class="vid-wrap ratio-9">
+              <iframe src="https://player.vimeo.com/video/853482772?title=0&byline=0&portrait=0" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="reel-cell">
+            <div class="reel-label">Copenhagen</div>
+            <div class="vid-wrap ratio-9">
+              <iframe src="https://player.vimeo.com/video/853482933?title=0&byline=0&portrait=0" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════════════
+     STAGE
+═══════════════════════════════════ -->
+<section class="sec s-stage" style="animation-delay:.72s">
+  <div class="sec-banner">
+    <img src="img/stage-banner.jpg" alt="Stage — Jose Pablo García"/>
+    <div class="sec-banner-overlay"></div>
+    <div class="sec-banner-title">stag<span class="last">e</span></div>
+  </div>
+
+  <div class="card feature" id="c-lwgy">
+    <button class="card-head" onclick="toggle('c-lwgy')">
+      <div class="card-icon">⌒</div>
+      <div class="card-text">
+        <div class="card-title">Lights Will Guide You</div>
+        <div class="card-sub"><span data-es>Show inmersivo inspirado en Coldplay · Co-director &amp; vocalista</span><span data-en>Coldplay-inspired immersive show · Co-director &amp; lead vocals</span></div>
+      </div>
+      <span class="card-arr">›</span>
+    </button>
+    <div class="card-body">
+      <div class="card-inner">
+        <div class="vid-list">
+          <div class="vid-item">
+            <div class="vid-label"><span>Show Teaser</span></div>
+            <div class="vid-wrap ratio-16">
+              <iframe src="https://www.youtube.com/embed/2vuC5Xzz3o4" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="inner-sep"></div>
+          <div class="vid-item">
+            <div class="vid-label">Fix You — <span>Music Video</span></div>
+            <div class="vid-wrap ratio-16">
+              <iframe src="https://www.youtube.com/embed/IJOK1HAB5E8" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="inner-sep"></div>
+          <div class="vid-item">
+            <div class="vid-label">Amsterdam — <span>Scene Clip</span></div>
+            <div class="vid-wrap ratio-16">
+              <iframe src="https://www.youtube.com/embed/OPrmY1j9wQk" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="inner-sep"></div>
+        <div class="gallery g2" data-gallery="lwgy">
+          <div class="gitem" onclick="openLightbox('lwgy',0)"><img src="img/lwgy-01.jpg" alt="Lights Will Guide You — show inmersivo"></div>
+          <div class="gitem" onclick="openLightbox('lwgy',1)"><img src="img/lwgy-02.jpg" alt="Lights Will Guide You — elenco en escena"></div>
+          <div class="gitem" onclick="openLightbox('lwgy',2)"><img src="img/lwgy-03.jpg" alt="Lights Will Guide You — Teatro Nacional"></div>
+          <div class="gitem" onclick="openLightbox('lwgy',3)"><img src="img/lwgy-04.jpg" alt="Lights Will Guide You — momento del show"></div>
+        </div>
+
+        <div class="inner-sep"></div>
+        <div class="card-mini-icons">
+          <a class="mini-icon" href="https://www.lightswillguideyou.com" target="_blank" rel="noopener" aria-label="Sitio web Lights Will Guide You">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm0 1.8a8.2 8.2 0 010 16.4 8.2 8.2 0 010-16.4zm-1 1.9v.1c-.5.1-1 .3-1.5.6-.8.5-1.5 1.3-2 2.4-.3.7-.5 1.5-.6 2.4h-2a8.3 8.3 0 016.1-5.5zm2 0a8.3 8.3 0 016.1 5.5h-2c-.1-.9-.3-1.7-.6-2.4-.5-1.1-1.2-1.9-2-2.4-.5-.3-1-.5-1.5-.6v-.1zm-3.2 1.5c.5.5.9 1.4 1.2 2.5H9a7 7 0 011.8-2.5zM12 7c.3 0 .6 0 .9.1A9 9 0 0114 9.8H10a9 9 0 011.1-2.7c.3-.1.6-.1.9-.1zm3.2.5A7 7 0 0117 10h-2c-.3-1.1-.7-2-.7-2.5l.9.5zM7 11.2h2.1c0 .3-.1.5-.1.8s0 .5.1.8H7c0-.5-.1-1-.1-1.6h.1zm3.1 0H14c0 .3.1.5.1.8s0 .5-.1.8H10a9.5 9.5 0 010-1.6zm4.9 0H17c0 .5.1 1.1 0 1.6h-2.1c.1-.3.1-.5.1-.8s0-.5-.1-.8zM7 13.6h2c.1.9.3 1.7.6 2.4.5 1.1 1.2 1.9 2 2.4.5.3 1 .5 1.5.6v.1a8.3 8.3 0 01-6.1-5.5zm3 0h4a9 9 0 01-1.1 2.7c-.6.1-.9.2-.9.2s-.3-.1-.9-.2A9 9 0 0110 13.6zm5 0h2a8.3 8.3 0 01-6.1 5.5v-.1c.5-.1 1-.3 1.5-.6.8-.5 1.5-1.3 2-2.4.3-.7.5-1.5.6-2.4z"/></svg>
+            <span>lightswillguideyou.com</span>
+          </a>
+          <a class="mini-icon" href="https://www.instagram.com/lightswillguideyoushow" target="_blank" rel="noopener" aria-label="Instagram Lights Will Guide You">
+            <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.3.8-.4.4-.6.8-.8 1.3-.2.4-.3 1-.4 2.1C2.6 9.9 2.6 10.3 2.6 12s0 2.1.1 3.3c.1 1.1.2 1.7.4 2.1.2.5.4.9.8 1.3.4.4.8.6 1.3.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.3-.8.4-.4.6-.8.8-1.3.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-3.3s0-2.1-.1-3.3c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.3-.4-.4-.8-.6-1.3-.8-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1zm0 3.1a4.9 4.9 0 100 9.8 4.9 4.9 0 000-9.8zm0 8.1a3.2 3.2 0 110-6.4 3.2 3.2 0 010 6.4zm6.2-8.3a1.15 1.15 0 11-2.3 0 1.15 1.15 0 012.3 0z"/></svg>
+            <span>@lightswillguideyoushow</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="c-matilda">
+    <button class="card-head" onclick="toggle('c-matilda')">
+      <div class="card-icon">⌒</div>
+      <div class="card-text">
+        <div class="card-title">Matilda Jr.</div>
+        <div class="card-sub"><span data-es>Dirección artística · 2025</span><span data-en>Artistic Direction · 2025</span></div>
+      </div>
+      <span class="card-arr">›</span>
+    </button>
+    <div class="card-body">
+      <div class="card-inner">
+        <div class="gallery g2" data-gallery="matilda">
+          <div class="gitem" onclick="openLightbox('matilda',0)"><img src="img/matilda-01.jpg" alt="Matilda Jr. dirección artística 2025 — escena"></div>
+          <div class="gitem" onclick="openLightbox('matilda',1)"><img src="img/matilda-02.jpg" alt="Matilda Jr. dirección artística 2025 — elenco"></div>
+          <div class="gitem" onclick="openLightbox('matilda',2)"><img src="img/matilda-03.jpg" alt="Matilda Jr. dirección artística 2025 — coreografía"></div>
+          <div class="gitem" onclick="openLightbox('matilda',3)"><img src="img/matilda-04.jpg" alt="Matilda Jr. dirección artística 2025 — momento emotivo"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════════════
+     MUSIC
+═══════════════════════════════════ -->
+<section class="sec s-music" style="animation-delay:.81s">
+  <div class="sec-banner">
+    <img src="img/music-banner.jpg" alt="Music — Jose Pablo García"/>
+    <div class="sec-banner-overlay"></div>
+    <div class="sec-banner-title">musi<span class="last">c</span></div>
+  </div>
+
+  <div class="card" id="c-music">
+    <button class="card-head" onclick="toggle('c-music')">
+      <div class="card-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M9 19 L9 10 A3 3 0 0 1 15 10 L15 19"/></svg></div>
+      <div class="card-text">
+        <div class="card-title">Soundtracks &amp; Singles</div>
+        <div class="card-sub"><span data-es>Producción de bandas sonoras</span><span data-en>Soundtrack production</span></div>
+      </div>
+      <span class="card-arr">›</span>
+    </button>
+    <div class="card-body">
+      <div class="card-inner">
+        <div class="spotify-list">
+          <div>
+            <div class="spotify-label">Lights Will Guide You — Album</div>
+            <div class="spotify-wrap">
+              <iframe src="https://open.spotify.com/embed/album/0jFRRi06CjHRyyJElNydOc?utm_source=generator&theme=0" height="152" allow="autoplay;clipboard-write;encrypted-media;fullscreen;picture-in-picture" loading="lazy"></iframe>
+            </div>
+          </div>
+          <div>
+            <div class="spotify-label">Dele Viaje T2 — Soundtrack</div>
+            <div class="spotify-wrap">
+              <iframe src="https://open.spotify.com/embed/album/0fyfDje2Yt4TyLOnvzCoTw?utm_source=generator&theme=0" height="152" allow="autoplay;clipboard-write;encrypted-media;fullscreen;picture-in-picture" loading="lazy"></iframe>
+            </div>
+          </div>
+          <div>
+            <div class="spotify-label">Dele Viaje T1 — Desde Arriba (Single)</div>
+            <div class="spotify-wrap">
+              <iframe src="https://open.spotify.com/embed/track/2467kn6cpAf5ti1jQ4rnaG?utm_source=generator&theme=0" height="80" allow="autoplay;clipboard-write;encrypted-media;fullscreen;picture-in-picture" loading="lazy"></iframe>
+            </div>
+          </div>
+          <div>
+            <div class="spotify-label">Dele Viaje T1 — La Mitad de lo que Soy (Single)</div>
+            <div class="spotify-wrap">
+              <iframe src="https://open.spotify.com/embed/track/3tS1qb3pVKpIaCs0Dcny3r?utm_source=generator&theme=0" height="80" allow="autoplay;clipboard-write;encrypted-media;fullscreen;picture-in-picture" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════════════
+     CONTACTO
+═══════════════════════════════════ -->
+<section class="sec s-contact" style="animation-delay:.90s">
+  <div class="sec-label">
+    <span data-es>Contacto</span><span data-en>Contact</span>
+  </div>
+
+  <button class="btn-contact" id="btn-contact" onclick="toggleForm()">
+    <div class="icon">
+      <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+    </div>
+    <div class="card-text">
+      <div class="card-title"><span data-es>Trabajemos juntos</span><span data-en>Let's work together</span></div>
+      <div class="card-sub"><span data-es>Escribime directamente</span><span data-en>Send me a message</span></div>
+    </div>
+    <span class="arr">›</span>
+  </button>
+
+  <div class="form-wrap" id="form-wrap">
+    <div class="form-inner">
+      <form id="contact-form" action="https://formspree.io/f/mojoqqqn" method="POST">
+        <div class="field">
+          <label><span data-es>Nombre</span><span data-en>Name</span></label>
+          <input type="text" name="name" required placeholder="Tu nombre / Your name"/>
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input type="email" name="email" required placeholder="tu@correo.com"/>
+        </div>
+        <div class="field">
+          <label>Instagram <span style="color:var(--fog);font-weight:400;text-transform:none;letter-spacing:0;font-size:10px;"><span data-es>(opcional)</span><span data-en>(optional)</span></span></label>
+          <input type="text" name="instagram" placeholder="@usuario"/>
+        </div>
+        <div class="field">
+          <label><span data-es>Tipo de proyecto</span><span data-en>Project type</span></label>
+          <select name="type" id="ftype-es" data-es>
+            <option value="" disabled selected>— Seleccioná —</option>
+            <option value="video">Producción de video</option>
+            <option value="photo">Fotografía</option>
+            <option value="stage">Dirección escénica</option>
+            <option value="content">Contenido para redes</option>
+            <option value="other">Otro</option>
+          </select>
+          <select name="type" id="ftype-en" data-en style="display:none">
+            <option value="" disabled selected>— Select one —</option>
+            <option value="video">Video production</option>
+            <option value="photo">Photography</option>
+            <option value="stage">Stage direction</option>
+            <option value="content">Social media content</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label><span data-es>Mensaje</span><span data-en>Message</span></label>
+          <textarea name="message" required placeholder="Contame de tu proyecto… / Tell me about your project…"></textarea>
+        </div>
+        <button type="submit" class="btn-send">
+          <span data-es>Enviar mensaje</span><span data-en>Send message</span>
+        </button>
+        <p class="form-msg" id="form-msg"></p>
+      </form>
+    </div>
+  </div>
+
+  <div class="socials">
+    <a class="soc" href="https://www.instagram.com/persona.cr" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.3.8-.4.4-.6.8-.8 1.3-.2.4-.3 1-.4 2.1C2.6 9.9 2.6 10.3 2.6 12s0 2.1.1 3.3c.1 1.1.2 1.7.4 2.1.2.5.4.9.8 1.3.4.4.8.6 1.3.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.3-.8.4-.4.6-.8.8-1.3.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-3.3s0-2.1-.1-3.3c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.3-.4-.4-.8-.6-1.3-.8-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1zm0 3.1a4.9 4.9 0 100 9.8 4.9 4.9 0 000-9.8zm0 8.1a3.2 3.2 0 110-6.4 3.2 3.2 0 010 6.4zm6.2-8.3a1.15 1.15 0 11-2.3 0 1.15 1.15 0 012.3 0z"/></svg>
+    </a>
+    <a class="soc" href="https://www.linkedin.com/in/josepablogarcia/" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.8-2.05 3.7-2.05 4 0 4.7 2.6 4.7 6V21h-4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21h-4V9z"/></svg>
+    </a>
+    <a class="soc" href="https://wa.me/50688433789" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm0 1.8a8.2 8.2 0 016.9 12.6l.1.2-.8 2.9-3-.8.2.1A8.2 8.2 0 1112 3.8zm-3.1 4c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.5 1 2.6c.1.2 1.7 2.7 4.2 3.7 2.1.8 2.5.7 3 .6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3l-1.5-.7c-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.5-1.5-1.8-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.2-.5.1-.1 0-.3 0-.4l-.7-1.6c-.2-.4-.4-.4-.5-.4h-.4z"/></svg>
+    </a>
+    <a class="soc" href="https://vimeo.com/personacr" target="_blank" rel="noopener" aria-label="Vimeo">
+      <svg viewBox="0 0 24 24"><path d="M22 7.4c-.1 2.1-1.6 5-4.4 8.6-2.9 3.8-5.4 5.7-7.4 5.7-1.3 0-2.3-1.2-3.2-3.5l-1.7-6.4c-.6-2.3-1.3-3.5-2-3.5-.2 0-.7.3-1.6.9L.6 8.4c1-.9 2-1.8 3-2.7 1.3-1.1 2.3-1.7 3-1.8 1.6-.2 2.5 1 2.8 3.4.3 2.7.6 4.3.7 5 .4 1.9.9 2.8 1.4 2.8.4 0 1-.6 1.7-1.8.8-1.2 1.2-2.1 1.3-2.8.1-1-.3-1.5-1.3-1.5-.4 0-.9.1-1.4.3.9-3 2.7-4.4 5.3-4.4 1.9.1 2.8 1.4 2.7 3.7z"/></svg>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <span class="footer-word">person<span class="a">α</span></span>
+  <a class="footer-domain" href="https://www.persona.cr" target="_blank" rel="noopener">www.persona.cr</a>
+  <div class="footer-meta">Costa Rica · © 2026</div>
+</footer>
+
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightboxOutside(event)">
+  <button class="lightbox-close" onclick="closeLightbox()">×</button>
+  <button class="lightbox-nav lightbox-prev" onclick="navLightbox(-1)">‹</button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt=""/>
+  <button class="lightbox-nav lightbox-next" onclick="navLightbox(1)">›</button>
+  <div class="lightbox-counter" id="lightbox-counter"></div>
+</div>
+
+<script>
+// OUTBOUND LINK TRACKING (social, WhatsApp, Vimeo, LWGY)
+document.addEventListener('click', function(e){
+  var link = e.target.closest('a[target="_blank"]');
+  if(!link || typeof gtag !== 'function') return;
+  var label = link.getAttribute('aria-label') || link.href;
+  gtag('event','outbound_click',{
+    link_url: link.href,
+    link_label: label
+  });
+});
+
+// LANG
+function setLang(l){
+  document.body.classList.toggle('en',l==='en');
+  document.documentElement.lang=l;
+  document.getElementById('bes').classList.toggle('on',l==='es');
+  document.getElementById('ben').classList.toggle('on',l==='en');
+}
+
+// ACCORDION
+function toggle(id){
+  var card=document.getElementById(id);
+  var opening=!card.classList.contains('open');
+  document.querySelectorAll('.card.open').forEach(function(c){
+    if(c.id!==id) c.classList.remove('open');
+  });
+  card.classList.toggle('open',opening);
+  if(opening){
+    setTimeout(function(){card.scrollIntoView({behavior:'smooth',block:'nearest'});},100);
+    if(typeof gtag==='function'){
+      gtag('event','section_open',{section_id:id});
+    }
+  }
+}
+
+// FORM
+function toggleForm(){
+  var btn=document.getElementById('btn-contact');
+  var wrap=document.getElementById('form-wrap');
+  var open=wrap.classList.toggle('open');
+  btn.classList.toggle('open',open);
+  if(open){
+    setTimeout(function(){btn.scrollIntoView({behavior:'smooth',block:'nearest'});},100);
+    if(typeof gtag==='function'){
+      gtag('event','contact_form_open');
+    }
+  }
+}
+
+document.getElementById('contact-form').addEventListener('submit',function(e){
+  e.preventDefault();
+  var msg=document.getElementById('form-msg');
+  var btn=this.querySelector('.btn-send');
+  var isEs=!document.body.classList.contains('en');
+  btn.textContent=isEs?'Enviando…':'Sending…';
+  btn.disabled=true;
+  fetch(this.action,{method:'POST',body:new FormData(this),headers:{'Accept':'application/json'}})
+  .then(function(r){
+    if(r.ok){
+      msg.textContent=isEs?'¡Mensaje enviado! Te respondo pronto.':'Message sent! I\'ll get back to you soon.';
+      msg.className='form-msg ok';
+      document.getElementById('contact-form').reset();
+      if(typeof gtag==='function'){
+        gtag('event','contact_form_submit');
+      }
+    } else { throw new Error(); }
+  })
+  .catch(function(){
+    msg.textContent=isEs?'Algo salió mal. Escribime a josepablo@persona.cr':'Something went wrong. Email me at josepablo@persona.cr';
+    msg.className='form-msg err';
+  })
+  .finally(function(){
+    btn.textContent=isEs?'Enviar mensaje':'Send message';
+    btn.disabled=false;
+  });
+});
+
+// LIGHTBOX
+var lbGalleries = {
+  'shows': [
+    'img/espectaculos-01.jpg','img/espectaculos-02.jpg','img/espectaculos-03.jpg',
+    'img/espectaculos-04.jpg','img/espectaculos-05.jpg','img/espectaculos-06.jpg'
+  ],
+  'personas': [
+    'img/personas-01.jpg','img/personas-02.jpg','img/personas-03.jpg',
+    'img/personas-04.jpg','img/personas-05.jpg','img/personas-06.jpg'
+  ],
+  'conceptual': [
+    'img/conceptual-01.jpg','img/conceptual-02.jpg',
+    'img/conceptual-03.jpg','img/conceptual-04.jpg'
+  ],
+  'lwgy': ['img/lwgy-01.jpg','img/lwgy-02.jpg','img/lwgy-03.jpg','img/lwgy-04.jpg'],
+  'matilda': ['img/matilda-01.jpg','img/matilda-02.jpg','img/matilda-03.jpg','img/matilda-04.jpg']
+};
+var lbCurrent = {gallery: null, index: 0};
+
+function openLightbox(gallery, index) {
+  lbCurrent.gallery = gallery;
+  lbCurrent.index = index;
+  renderLightbox();
+  document.getElementById('lightbox').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function renderLightbox() {
+  var imgs = lbGalleries[lbCurrent.gallery];
+  var img = document.getElementById('lightbox-img');
+  img.src = imgs[lbCurrent.index];
+  document.getElementById('lightbox-counter').textContent = (lbCurrent.index+1) + ' / ' + imgs.length;
+}
+
+function navLightbox(dir) {
+  var imgs = lbGalleries[lbCurrent.gallery];
+  lbCurrent.index = (lbCurrent.index + dir + imgs.length) % imgs.length;
+  renderLightbox();
+}
+
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function closeLightboxOutside(e) {
+  if(e.target === document.getElementById('lightbox')) closeLightbox();
+}
+
+document.addEventListener('keydown', function(e) {
+  if(!document.getElementById('lightbox').classList.contains('active')) return;
+  if(e.key === 'ArrowLeft') navLightbox(-1);
+  if(e.key === 'ArrowRight') navLightbox(1);
+  if(e.key === 'Escape') closeLightbox();
+});
+</script>
+</body>
+</html>

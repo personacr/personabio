@@ -82,3 +82,7 @@ José Pablo sube las fotos originales a la carpeta **`nuevas/`**. Vos:
 ## Pendientes conocidos
 
 - Decisión pendiente sobre un nuevo isotipo para la α (exploraciones "Umbral" / "Testigo"). No aplicar hasta que José Pablo lo apruebe.
+
+## Notas de trabajo
+
+- El push desde Claude Code a GitHub ya está configurado en la Mac de José Pablo (Llavero de macOS).

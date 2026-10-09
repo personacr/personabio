@@ -35,7 +35,7 @@ Este archivo es la memoria del proyecto. Leelo completo antes de hacer cualquier
 1. **Hero:** perfil, wordmark, nombre, rol, bio corta, manifiesto.
 2. **MOTION** (banner `motion-banner.jpg`): Reels Cinematográficos → Cortos & Videoclips → Dele Viaje → A Ojos Cerrados (solo info).
 3. **PHOTO** (banner `photo-banner.jpg`): Espectáculos (6 fotos) → Personas (6) → Conceptual (4, grid de 2 columnas) → Photography Reels (al final).
-4. **STAGE** (banner `stage-banner.jpg`): Lights Will Guide You (videos + 4 fotos + mini-íconos de sitio e Instagram) → Matilda Jr. (4 fotos).
+4. **STAGE** (banner `stage-banner.jpg`): Lights Will Guide You (2023–2024; videos + 4 fotos + mini-íconos de sitio e Instagram) → Matilda Jr. (4 fotos).
 5. **MUSIC** (banner `music-banner.jpg`): Soundtracks & Singles (embeds de Spotify).
 6. **CONTACTO:** formulario Formspree + redes sociales.
 7. **Footer:** wordmark + www.persona.cr.
@@ -81,5 +81,4 @@ José Pablo sube las fotos originales a la carpeta **`nuevas/`**. Vos:
 
 ## Pendientes conocidos
 
-- Agregar el proyecto **Still Standing** en STAGE (preguntar a José Pablo: rol, año, posición en la lista, videos, links).
 - Decisión pendiente sobre un nuevo isotipo para la α (exploraciones "Umbral" / "Testigo"). No aplicar hasta que José Pablo lo apruebe.

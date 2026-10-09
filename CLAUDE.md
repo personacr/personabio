@@ -77,6 +77,7 @@ José Pablo sube las fotos originales a la carpeta **`nuevas/`**. Vos:
 - ✅ Mantener el sitio rápido: fotos comprimidas, sin librerías.
 - ✅ Antes de terminar: revisá que el HTML no tenga etiquetas sin cerrar, que el toggle ES/EN funcione y que cada galería nueva esté en `lbGalleries`.
 - ✅ Mensajes de commit en español y claros: `Agrega proyecto Still Standing en Stage`.
+- ✅ **Vista previa antes del Merge:** después de cada cambio, y antes de que José Pablo haga el Merge, siempre darle un link de vista previa con raw.githack.com usando el SHA del último commit, con este formato: `https://raw.githack.com/personacr/personabio/SHA/index.html` (reemplazar `SHA` por el código completo del último commit ya subido). Si después se hace otro commit, dar el link nuevo con el SHA nuevo.
 
 ## Pendientes conocidos
 

@@ -68,6 +68,7 @@ José Pablo sube las fotos originales a la carpeta **`nuevas/`**. Vos:
 - **Google Analytics 4:** `G-TY6Y414RXR`. Eventos: `section_open` (al abrir una tarjeta), `outbound_click` (links externos), `contact_form_open`, `contact_form_submit`. Las tarjetas nuevas quedan registradas solas si usan `toggle()`.
 - **Formspree:** `https://formspree.io/f/mojoqqqn`.
 - **WhatsApp:** `https://wa.me/50688433789` · **Vimeo:** vimeo.com/personacr · **Email:** josepablo@persona.cr
+- **GoatCounter:** sitio `persona` (https://persona.goatcounter.com). Cuenta visitas y clics en enlaces externos (`clic: <nombre>`). Script al final de `index.html`, antes de `</body>`.
 - **Open Graph:** `og:image` apunta a `https://bio.persona.cr/img/og-image.jpg` (1200×630).
 
 ## Reglas de oro

@@ -949,5 +949,16 @@ document.addEventListener('keydown', function(e) {
   if(e.key === 'Escape') closeLightbox();
 });
 </script>
+<!-- Contador de visitas y clics (GoatCounter, sin cookies). Panel: https://persona.goatcounter.com
+     Visitas: "/"  ·  Clics en enlaces externos: "clic: <nombre del enlace>". Convive con Google Analytics. -->
+<script>
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a || !window.goatcounter || !window.goatcounter.count || a.host === location.host) return;
+    var t = (a.getAttribute('aria-label') || a.textContent || a.href).replace(/\s+/g, ' ').trim().slice(0, 60);
+    window.goatcounter.count({ path: 'clic: ' + t, title: a.href, event: true });
+  }, true);
+</script>
+<script data-goatcounter="https://persona.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>

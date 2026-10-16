@@ -39,7 +39,7 @@ Este archivo es la memoria del proyecto. Leelo completo antes de hacer cualquier
 4. **STAGE:** Still Standing → Lights Will Guide You (videos, fotos, **álbum del show** en Spotify, mini-íconos) → Matilda Jr.
 5. **CONTACTO** y footer.
 - **Ya no hay sección MUSIC:** cada banda sonora vive dentro de su proyecto.
-- Los links «Ver más» de cada capítulo apuntan a `personacr.github.io/personaweb/photo/...`. **Al lanzar persona.cr, cambiarlos.**
+- Los links «Ver más» de cada capítulo apuntan a `https://www.persona.cr/photo/...` (sitio principal, en vivo desde oct 2026).
 - **Reels de Instagram:** no usar el reproductor incrustado de Instagram (no se puede diseñar y se ve mal). Usar portada vertical propia (`img/<nombre>-reel.jpg`, 540×960) dentro de `<a class="ig-poster">` que abre el reel en Instagram.
 
 ## Cómo agregar un proyecto nuevo (patrón de tarjeta)

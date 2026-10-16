@@ -4,7 +4,7 @@ Este archivo es la memoria del proyecto. Leelo completo antes de hacer cualquier
 
 ## Quién es el dueño
 
-- **José Pablo García** — cineasta, fotógrafo y director escénico costarricense. Marca: **PERSONA** (se escribe `personα`).
+- **Jose Pablo García** (Jose SIN tilde en lo visible) — cineasta, fotógrafo, director escénico y creador de contenido costarricense, 20+ años. Marca: **PERSONA** (se escribe `persona`, con la «a» final en itálica azul). No se presenta como músico: produce bandas sonoras para sus proyectos y canta en sus shows.
 - Está aprendiendo a usar GitHub y Claude Code. **Explicale todo en español sencillo (voseo costarricense), sin jerga técnica.**
 - Antes de un cambio grande, resumí qué vas a hacer y pedí confirmación. Al terminar, decí en 2–3 líneas qué cambió y cómo verlo en vivo.
 
@@ -24,21 +24,21 @@ Este archivo es la memoria del proyecto. Leelo completo antes de hacer cualquier
 | `--copper` | `#4FB3E8` | **Acento azul.** El nombre de la variable es heredado (antes era cobre). No renombrar. |
 | `--copper-d` | `#2E8FC0` | Hover del acento |
 
-- **Tipografía:** Fraunces (serif: wordmark, manifiesto, títulos de banners, footer) + Plus Jakarta Sans (todo lo demás).
-- **Wordmark:** `person<span class="alpha">α</span>` — la α en itálica azul.
+- **Tipografía (desde oct 2026):** Zodiak (serif: wordmark, manifiesto, títulos de banners, footer) + Switzer (todo lo demás), ambas de Fontshare. Mismas que el sitio principal. No volver a Fraunces ni Plus Jakarta (muy vistas en sitios genéricos).
+- **Wordmark:** `person<span class="alpha">a</span>` — «a» latina en itálica azul. Ya **no** se usa la α griega (se parecía a Sony α). La clase CSS sigue llamándose `alpha` por herencia.
 - **Banners de sección:** palabra en Fraunces peso 200, minúsculas, última letra en itálica azul: `stag<span class="last">e</span>`.
-- **Íconos por disciplina:** Motion `▭` · Photo `◎` · Stage `⌒` · Music = SVG de diapasón.
-- El favicon es un SVG en base64 con la α en `#4FB3E8`. Si cambia el color de acento, regeneralo.
+- **Íconos por disciplina:** Motion `▭` · Photo `◎` · Stage `⌒`.
+- El favicon es un SVG con la «a» itálica en `#4FB3E8`.
 
-## Arquitectura de secciones
+## Arquitectura de secciones (oct 2026: resumen del sitio principal)
 
-1. **Hero:** perfil, wordmark, nombre, rol, bio corta, manifiesto.
-2. **MOTION** (banner `motion-banner.jpg`): Reels Cinematográficos → Cortos & Videoclips → Dele Viaje → A Ojos Cerrados (solo info).
-3. **PHOTO** (banner `photo-banner.jpg`): Espectáculos (6 fotos) → Personas (6) → Conceptual (4, grid de 2 columnas) → Photography Reels (al final).
-4. **STAGE** (banner `stage-banner.jpg`): Lights Will Guide You (2023–2024; videos + 4 fotos + mini-íconos de sitio e Instagram) → Matilda Jr. (4 fotos).
-5. **MUSIC** (banner `music-banner.jpg`): Soundtracks & Singles (embeds de Spotify).
-6. **CONTACTO:** formulario Formspree + redes sociales.
-7. **Footer:** wordmark + www.persona.cr.
+1. **Hero:** perfil, wordmark, nombre, rol, bio corta (20+ años), manifiesto.
+2. **MOTION:** ABRIL (2026, 2.ª unidad de fotografía, reel de Instagram) → Reels Cinematográficos → Cortos & Videoclips → Dele Viaje (tráileres T1 y T2 + **banda sonora** en Spotify) → A Ojos Cerrados (solo info).
+3. **PHOTO** (mismos capítulos que personaweb, 6 fotos cuadradas c/u y link «Ver capítulo completo»): En vivo → Movimiento → Teatro → Retrato → Arte (4, g2) → Photography Reels.
+4. **STAGE:** Still Standing → Lights Will Guide You (videos, fotos, **álbum del show** en Spotify, mini-íconos) → Matilda Jr.
+5. **CONTACTO** y footer.
+- **Ya no hay sección MUSIC:** cada banda sonora vive dentro de su proyecto.
+- Los links «Ver capítulo completo» apuntan a `personacr.github.io/personaweb/photo/...`. **Al lanzar persona.cr, cambiarlos.**
 
 ## Cómo agregar un proyecto nuevo (patrón de tarjeta)
 

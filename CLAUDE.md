@@ -33,7 +33,7 @@ Este archivo es la memoria del proyecto. Leelo completo antes de hacer cualquier
 ## Arquitectura de secciones (oct 2026: resumen del sitio principal)
 
 1. **Hero:** perfil, wordmark, nombre, rol, bio corta (20+ años), manifiesto.
-2. **MOTION:** ABRIL (2026, 2.ª unidad de fotografía, reel de Instagram) → Reels Cinematográficos → Cortos & Videoclips → Dele Viaje (tráileres T1 y T2 + **banda sonora** en Spotify) → A Ojos Cerrados (solo info).
+2. **MOTION:** Reels Cinematográficos → Cortos & Videoclips → Dele Viaje (tráileres T1 y T2 + **banda sonora** en Spotify) → A Ojos Cerrados (solo info) → Abril (2026, 2.ª unidad de fotografía, reel de Instagram; se escribe «Abril», no en mayúsculas).
 3. **PHOTO** (mismos capítulos que personaweb, 6 fotos cuadradas c/u y link «Ver capítulo completo»): En vivo → Movimiento → Teatro → Retrato → Arte (4, g2) → Photography Reels.
 4. **STAGE:** Still Standing → Lights Will Guide You (videos, fotos, **álbum del show** en Spotify, mini-íconos) → Matilda Jr.
 5. **CONTACTO** y footer.

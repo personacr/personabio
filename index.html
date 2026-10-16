@@ -251,7 +251,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--copper);outline-off
 
 /* ANIMATIONS */
 @keyframes appear{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}.lang,.wordmark,.fullname,.role,.bio,.manif,.hdiv,.footer,.avatar-wrap,.sec{opacity:1!important;}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}.lang,.wordmark,.fullname,.eyebrow-top,.role,.bio,.manif,.hdiv,.footer,.avatar-wrap,.sec{opacity:1!important;}}
 
 /* LANG SWITCHING */
 [data-en]{display:none;}
@@ -261,6 +261,29 @@ body.en span[data-en]{display:inline;}
 body.en select[data-en]{display:block;}
 select[data-es]{display:block;}
 body.en select[data-es]{display:none;}
+
+/* ── Retoque «Sala oscura» (oct 2026): más cerca del sitio principal ── */
+:root{--r:0px;--r-sm:0px;}
+.sec{background:none!important;padding:10px 0 18px;border-radius:0;margin-bottom:6px;}
+.sec-banner{width:calc(100% + 40px);margin-left:-20px;height:150px;margin-bottom:6px;border-bottom:1px solid var(--line);}
+.sec-banner img{filter:brightness(.55) saturate(.9);}
+.sec-banner-overlay{background:linear-gradient(90deg,rgba(0,0,0,.75) 0%,rgba(0,0,0,.15) 65%,rgba(0,0,0,.45) 100%);}
+.sec-banner-title{left:20px;bottom:auto;top:50%;transform:translateY(-50%);font-size:54px;letter-spacing:-.01em;line-height:.9;}
+.sec-banner-title .last{font-weight:300;}
+.sec-n{position:absolute;top:12px;left:20px;font-size:10px;font-weight:600;letter-spacing:.22em;color:var(--fog);}
+.sec-area{position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:10px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--bone);}
+.card{background:none;border:0;border-bottom:1px solid var(--line);margin:0;}
+.card-head{padding:15px 2px;}
+.card-head:hover,.card.open .card-head{background:rgba(244,242,237,.03);}
+.card-icon{width:24px;height:24px;background:none;border:0;font-size:18px;}
+.card-title{font-family:var(--serif);font-weight:300;font-size:19px;}
+.card-inner{padding:0 0 16px;}
+.gallery{gap:3px;}
+.gitem{border:0;}
+.vid-wrap{border:0;}
+.ig-poster{border:0;}
+.eyebrow-top{font-size:10px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--bone);margin-bottom:6px;opacity:0;animation:appear .7s ease .24s forwards;}
+.manif.end{opacity:1;animation:none;text-align:center;margin:40px auto 8px;font-size:17px;}
 </style>
 </head>
 <body>
@@ -281,6 +304,7 @@ body.en select[data-es]{display:none;}
 <header class="hero">
   <h1 class="wordmark">person<span class="alpha">a</span></h1>
   <p class="fullname">Jose Pablo García</p>
+  <p class="eyebrow-top"><span data-es>Narrador visual</span><span data-en>Visual storyteller</span></p>
   <p class="role">
     <span data-es>Cineasta, fotógrafo y director escénico</span>
     <span data-en>Filmmaker, photographer &amp; stage director</span>
@@ -289,10 +313,7 @@ body.en select[data-es]{display:none;}
     <span data-es>Cineasta independiente costarricense con más de 20 años de experiencia en cine, fotografía, televisión, creación de contenido y artes escénicas.</span>
     <span data-en>Costa Rican independent filmmaker with over 20 years of experience in film, photography, TV, content creation and performing arts.</span>
   </p>
-  <p class="manif">
-    <span data-es>La magia de lo cotidiano y el poder del subconsciente para crear.</span>
-    <span data-en>The magic of everyday life and the power of the subconscious to create.</span>
-  </p>
+
 </header>
 
 <div class="hdiv"></div>
@@ -304,7 +325,9 @@ body.en select[data-es]{display:none;}
   <div class="sec-banner">
     <img src="img/motion-banner.jpg" alt="Motion — Jose Pablo García"/>
     <div class="sec-banner-overlay"></div>
+    <span class="sec-n">01</span>
     <div class="sec-banner-title">motio<span class="last">n</span></div>
+    <span class="sec-area"><span data-es>Cine &amp; video</span><span data-en>Film &amp; video</span></span>
   </div>
 
   <div class="card" id="c-reels">
@@ -491,7 +514,9 @@ body.en select[data-es]{display:none;}
   <div class="sec-banner">
     <img src="img/photo-banner.jpg" alt="Photo — Jose Pablo García"/>
     <div class="sec-banner-overlay"></div>
+    <span class="sec-n">02</span>
     <div class="sec-banner-title">phot<span class="last">o</span></div>
+    <span class="sec-area"><span data-es>Fotografía</span><span data-en>Photography</span></span>
   </div>
 
   <div class="card" id="c-envivo">
@@ -662,7 +687,9 @@ body.en select[data-es]{display:none;}
   <div class="sec-banner">
     <img src="img/stage-banner.jpg" alt="Stage — Jose Pablo García"/>
     <div class="sec-banner-overlay"></div>
+    <span class="sec-n">03</span>
     <div class="sec-banner-title">stag<span class="last">e</span></div>
+    <span class="sec-area"><span data-es>Artes escénicas</span><span data-en>Performing arts</span></span>
   </div>
 
   <div class="card" id="c-stillstanding">
@@ -866,6 +893,10 @@ body.en select[data-es]{display:none;}
   </div>
 </section>
 
+<p class="manif end">
+    <span data-es>La magia de lo cotidiano y el poder del subconsciente para crear.</span>
+    <span data-en>The magic of everyday life and the power of the subconscious to create.</span>
+  </p>
 <footer class="footer">
   <span class="footer-word">person<span class="a">a</span></span>
   <a class="footer-domain" href="https://www.persona.cr" target="_blank" rel="noopener">www.persona.cr</a>

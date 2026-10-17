@@ -40,6 +40,7 @@ Este archivo es la memoria del proyecto. Leelo completo antes de hacer cualquier
 5. **CONTACTO** y footer.
 - **Ya no hay sección MUSIC:** cada banda sonora vive dentro de su proyecto.
 - Los links «Ver más» de cada capítulo apuntan a `https://www.persona.cr/photo/...` (sitio principal, en vivo desde oct 2026).
+- **Nominación FAPA:** en la tarjeta Arte va `<a class="award">` con `img/fapa-nominee.png` → Nominee · Conceptual · 12th Fine Art Photography Awards 2025–2026 (Parallel Perceptions), enlazado a la página oficial.
 - **Reels de Instagram:** no usar el reproductor incrustado de Instagram (no se puede diseñar y se ve mal). Usar portada vertical propia (`img/<nombre>-reel.jpg`, 540×960) dentro de `<a class="ig-poster">` que abre el reel en Instagram.
 
 ## Cómo agregar un proyecto nuevo (patrón de tarjeta)

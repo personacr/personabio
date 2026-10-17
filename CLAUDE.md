@@ -72,7 +72,7 @@ José Pablo sube las fotos originales a la carpeta **`nuevas/`**. Vos:
 - **Formspree:** `https://formspree.io/f/mojoqqqn`.
 - **WhatsApp:** `https://wa.me/50688433789` · **Vimeo:** vimeo.com/personacr · **Email:** josepablo@persona.cr
 - **GoatCounter:** sitio `persona` (https://persona.goatcounter.com). Cuenta visitas y clics en enlaces externos (`clic: <nombre>`). Script al final de `index.html`, antes de `</body>`.
-- **Open Graph:** `og:image` apunta a `https://bio.persona.cr/img/og-image.jpg` (1200×630).
+- **Open Graph:** `og:image` apunta a `https://bio.persona.cr/img/og-image-v2.jpg` (1200×630). Se genera con `herramientas/og.py` del repo personaweb; si cambia, subí la versión (v3…) para que WhatsApp la vuelva a pedir.
 
 ## Tono de los textos
 - Directo y sencillo. **Nada pretencioso ni «poético»** (ej.: no «personas con luz de cine», no «narrador visual»). Describir qué es, no adornarlo.

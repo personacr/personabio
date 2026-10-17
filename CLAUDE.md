@@ -34,7 +34,7 @@ Este archivo es la memoria del proyecto. Leelo completo antes de hacer cualquier
 
 1. **Hero:** perfil, wordmark, nombre, «Narrador visual», rol, bio corta (20+ años). El manifiesto va al final, antes del footer.
 - **Estética (oct 2026):** igual al sitio: esquinas rectas, tarjetas como filas con línea fina, íconos de disciplina sin cajita, banners como franjas numeradas (01 motion · 02 photo · 03 stage), fotos casi pegadas (3 px).
-2. **MOTION:** Reels Cinematográficos → Cortos & Videoclips → Dele Viaje (tráileres T1 y T2 + **banda sonora** en Spotify) → A Ojos Cerrados (solo info) → Abril (2026, 2.ª unidad de fotografía, reel de Instagram; se escribe «Abril», no en mayúsculas).
+2. **MOTION:** Reels Cinematográficos → Cortos & Videoclips → Dele Viaje (tráileres T2 primero y luego T1 + **banda sonora** en Spotify) → A Ojos Cerrados (solo info). Abril se quitó de la Bio (oct 2026); vive en el sitio.
 3. **PHOTO** (mismos capítulos que personaweb, 6 fotos cuadradas c/u y link «Ver más»): En vivo → Movimiento → Teatro → Retrato → Arte (4, g2) → Photography Reels.
 4. **STAGE:** Still Standing → Lights Will Guide You (videos, fotos, **álbum del show** en Spotify, mini-íconos) → Matilda Jr.
 5. **CONTACTO** y footer.

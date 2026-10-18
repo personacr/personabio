@@ -28,7 +28,7 @@ Este archivo es la memoria del proyecto. Leelo completo antes de hacer cualquier
 - **Wordmark:** `person<span class="alpha">a</span>` — «a» latina en itálica azul. Ya **no** se usa la α griega (se parecía a Sony α). La clase CSS sigue llamándose `alpha` por herencia.
 - **Banners de sección:** palabra en Fraunces peso 200, minúsculas, última letra en itálica azul: `stag<span class="last">e</span>`.
 - **Íconos por disciplina:** Motion `▭` · Photo `◎` · Stage `⌒`.
-- El favicon es un SVG con la «a» itálica en `#4FB3E8`.
+- **Favicon:** «a» de Zodiak itálica azul sobre negro, en `favicon.ico`, `favicon-32.png`, `favicon-512.png` y `apple-touch-icon.png` (raíz). Igual en el sitio y la Bio.
 
 ## Arquitectura de secciones (oct 2026: resumen del sitio principal)
 
